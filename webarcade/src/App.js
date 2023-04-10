@@ -1,9 +1,9 @@
 import './App.css';
-import { PuntuacionPage } from './pages/PuntuacionPage/PuntuacionPage';
+import { AppRouter } from './routes';
 
 function App() {
   return (
-    <PuntuacionPage></PuntuacionPage>
+    <AppRouter></AppRouter>
   );
 }
 

@@ -1,6 +1,7 @@
 .caja_puntos_container {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .caja_puntos_columna_1 {
@@ -9,13 +10,12 @@
     align-items: center;
     /* Esta propiedad te alinea el contenido al medio del contenedor */
     justify-content: center;
-    background-color: red;
     width: 50px;
 }
 
 .caja_puntos_columna_2 {
-    background-color: green;
     width: calc(100% - 100px);
+    max-width: 200px;
 }
 
 .caja_puntos_columna_3 {
@@ -24,6 +24,5 @@
     align-items: center;
     /* Esta propiedad te alinea el contenido al medio del contenedor */
     justify-content: center;
-    background-color: yellow;
     width: 50px;
 }

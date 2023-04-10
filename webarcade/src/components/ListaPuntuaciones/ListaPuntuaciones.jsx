@@ -4,9 +4,9 @@ export const ListaPuntuaciones = (props) => {
 
     return (
         <div>
-            {props.puntuaciones.map(puntuacion => {
+            {props.puntuaciones.map((puntuacion, index) => {
                 return (
-                    <Puntuacion puntuacion={puntuacion}></Puntuacion>
+                    <Puntuacion key={"Puntuacion_" + index} puntuacion={puntuacion}></Puntuacion>
                 );
             })}
         </div>
