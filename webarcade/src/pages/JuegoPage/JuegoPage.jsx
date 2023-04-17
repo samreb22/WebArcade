@@ -1,5 +1,7 @@
+import { GameLayout } from "../../components/Layouts/GameLayout";
+
 export const JuegoPage = () => {
-  return (
-    <div>JuegoPage</div>
-  )
-}
+  return <GameLayout texto="Jugar">
+    "Juego"
+  </GameLayout>;
+};
